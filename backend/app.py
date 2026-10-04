@@ -16,7 +16,17 @@ from utils.jwt_auth import require_auth, issue_token
 load_dotenv()
 
 app = Flask(__name__)
-CORS(app)
+
+CORS(
+    app,
+    resources={r"/*": {
+        "origins": [
+            "https://safestride-bay.vercel.app"
+        ]
+    }},
+    methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+    allow_headers=["Content-Type", "Authorization"]
+)
 
 PORT = int(os.environ.get("PORT", 5000))
 # 25MB cap on uploads (short SOS video/audio clips)

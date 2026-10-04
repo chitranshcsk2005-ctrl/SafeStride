@@ -8,3 +8,5 @@ joblib==1.4.2
 cryptography==42.0.8
 PyJWT==2.9.0
 gunicorn==22.0.0
+Flask-Cors
+gunicorn
