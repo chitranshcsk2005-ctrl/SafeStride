@@ -1,0 +1,79 @@
+[
+  {
+    "id": "zone-01",
+    "name": "Metro Gate 3",
+    "lat": 28.4711,
+    "lng": 77.5040,
+    "base_risk": 88,
+    "category": "transit_hub",
+    "streetlights": "poor",
+    "footfall_night": "very_low",
+    "cctv_coverage": 0.35
+  },
+  {
+    "id": "zone-02",
+    "name": "Night Corridor 7",
+    "lat": 28.4652,
+    "lng": 77.4995,
+    "base_risk": 79,
+    "category": "connector_road",
+    "streetlights": "poor",
+    "footfall_night": "low",
+    "cctv_coverage": 0.20
+  },
+  {
+    "id": "zone-03",
+    "name": "Sector-18",
+    "lat": 28.4744,
+    "lng": 77.5085,
+    "base_risk": 72,
+    "category": "commercial",
+    "streetlights": "moderate",
+    "footfall_night": "moderate",
+    "cctv_coverage": 0.55
+  },
+  {
+    "id": "zone-04",
+    "name": "Bus Terminus",
+    "lat": 28.4599,
+    "lng": 77.5062,
+    "base_risk": 63,
+    "category": "transit_hub",
+    "streetlights": "moderate",
+    "footfall_night": "moderate",
+    "cctv_coverage": 0.60
+  },
+  {
+    "id": "zone-05",
+    "name": "Tech Zone",
+    "lat": 28.4780,
+    "lng": 77.5150,
+    "base_risk": 58,
+    "category": "commercial",
+    "streetlights": "good",
+    "footfall_night": "moderate",
+    "cctv_coverage": 0.70
+  },
+  {
+    "id": "zone-06",
+    "name": "Alpha-1 Junction",
+    "lat": 28.4820,
+    "lng": 77.5010,
+    "base_risk": 41,
+    "category": "residential",
+    "streetlights": "good",
+    "footfall_night": "moderate",
+    "cctv_coverage": 0.65
+  },
+  {
+    "id": "zone-07",
+    "name": "Delta Park",
+    "lat": 28.4690,
+    "lng": 77.5120,
+    "base_risk": 22,
+    "category": "residential",
+    "streetlights": "good",
+    "footfall_night": "high",
+    "cctv_coverage": 0.80
+  }
+]
